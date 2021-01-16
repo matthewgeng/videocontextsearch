@@ -1,0 +1,10 @@
+flask
+flask-cors
+opencv
+sckit-image
+tensorflow=1.15
+nltk
+matplotlib
+tqdm
+pandas
+numpy

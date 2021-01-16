@@ -1,0 +1,6 @@
+,image_files,caption,prob
+0,./test/images/3.jpg,a woman riding a surfboard on top of a wave.,0.009091770120544886
+1,./test/images/100.0_2.jpg,a large pizza is sitting on a table.,3.304980459946072e-05
+2,./test/images/1.jpg,a red double decker bus driving down a street.,0.0159334563779269
+3,./test/images/8433.333333333334_252.jpg,a man holding a toothbrush in his hand.,0.0008862107559103275
+4,./test/images/2.jpg,a group of people sitting at a table eating pizza.,0.004153377736848015

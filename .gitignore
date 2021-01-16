@@ -1,0 +1,5 @@
+.vscode
+vc_workshop.txt
+.eslintrc.json
+.eslintcache
+__pycache__
