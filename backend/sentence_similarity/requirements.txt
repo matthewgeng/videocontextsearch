@@ -1,4 +1,0 @@
-allennlp
-tensorflow_hub
-sentence-transformers
-bert_score
