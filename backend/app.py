@@ -14,7 +14,7 @@ import numpy as np
 app = Flask(__name__)
 CORS(app)
 
-# df = None
+df = None
 
 def get_frames(save_path, video, process_percent):
     vid = cv2.VideoCapture(video)
@@ -41,7 +41,7 @@ def get_frames(save_path, video, process_percent):
 
 @app.route("/api/video", methods=["POST"])
 def video():
-    # global df
+    global df
     uploaded_file = request.files['file']
     filename = uploaded_file.filename
     image_caption_path = os.path.join(os.path.join("image_captioning", "test"), "uploaded")
@@ -55,34 +55,40 @@ def video():
     if not os.path.exists(upload_path):
         print(f"File {filename} saved at {upload_path}")
         uploaded_file.save(upload_path)
-    get_frames(folder, upload_path, .1)
+    get_frames(folder, upload_path, .3)
 
     # delete saved video
     os.unlink(upload_path)
 
     inference(3, folder)
 
-    # try:
-    #     shutil.rmtree(folder)
-    #     print(f"{folder} successfully removed")
-    # except Exception as e:
-    #     print('Failed to delete %s. Reason: %s' % (folder, e))
+    try:
+        shutil.rmtree(folder)
+        print(f"{folder} successfully removed")
+    except Exception as e:
+        print('Failed to delete %s. Reason: %s' % (folder, e))
 
     df = pd.read_csv("image_captioning/test/results.csv")
     df = df.sort_values(by=["timestamps"])
     df = df.drop_duplicates(subset=["caption"], keep='first')
     df = df.reset_index()
+
+    return jsonify("Success")
+
+
+@app.route("/api/search", methods=["POST"])
+def search():
+    global df
     sentences = df["caption"].to_numpy()
-    query = "wii"
+    query = request.get_json()["search"]
 
     pred = inference_sensim(sentences, query)
     scores = pd.DataFrame({"scores": pred.flatten()})
 
-    df = pd.concat([df, scores], axis=1)
-    df = df[df["scores"] >= 0.5]
-    df = df[["timestamps", "scores"]]
-    final_data = df.set_index('timestamps')["scores"].to_dict()
-
+    new_df = pd.concat([df, scores], axis=1)
+    new_df = new_df[new_df["scores"] >= 0.5]
+    new_df = new_df[["timestamps", "scores"]]
+    final_data = new_df.set_index('timestamps')["scores"].to_dict()
     return jsonify(final_data)
 
 @app.route("/api/ytlink", methods=["POST"])

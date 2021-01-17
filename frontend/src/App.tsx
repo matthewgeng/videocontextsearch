@@ -5,7 +5,7 @@ import TabForm from "./components/TabForm";
 
 const App: React.FC = () => {
   const [tab, setTab] = useState<string | null>("video");
-  const [result, setResult] = useState<[number]>();
+  const [result, setResult] = useState<{}>();
 
   return (
     <Container>
