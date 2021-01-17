@@ -7,11 +7,14 @@ import pandas as pd
 import math
 import sys
 sys.path.append(os.path.abspath('./image_captioning'))
-
+sys.path.append(os.path.abspath('./sentence_similarity'))
 from image_captioning.main import inference
-
+from sentence_similarity.sensim import inference_sensim
+import numpy as np
 app = Flask(__name__)
 CORS(app)
+
+# df = None
 
 def get_frames(save_path, video, process_percent):
     vid = cv2.VideoCapture(video)
@@ -38,6 +41,7 @@ def get_frames(save_path, video, process_percent):
 
 @app.route("/api/video", methods=["POST"])
 def video():
+    # global df
     uploaded_file = request.files['file']
     filename = uploaded_file.filename
     image_caption_path = os.path.join(os.path.join("image_captioning", "test"), "uploaded")
@@ -65,9 +69,21 @@ def video():
     #     print('Failed to delete %s. Reason: %s' % (folder, e))
 
     df = pd.read_csv("image_captioning/test/results.csv")
+    df = df.sort_values(by=["timestamps"])
+    df = df.drop_duplicates(subset=["caption"], keep='first')
+    df = df.reset_index()
+    sentences = df["caption"].to_numpy()
+    query = "wii"
 
+    pred = inference_sensim(sentences, query)
+    scores = pd.DataFrame({"scores": pred.flatten()})
 
-    return jsonify("video")
+    df = pd.concat([df, scores], axis=1)
+    df = df[df["scores"] >= 0.5]
+    df = df[["timestamps", "scores"]]
+    final_data = df.set_index('timestamps')["scores"].to_dict()
+
+    return jsonify(final_data)
 
 @app.route("/api/ytlink", methods=["POST"])
 def ytlink():

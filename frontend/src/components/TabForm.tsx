@@ -47,6 +47,9 @@ const VideoForm: React.FC<FormProps> = ({ result, setResult }: FormProps) => {
         <Button type="submit" variant="primary">
           Submit
         </Button>
+        <div>
+          <pre>{JSON.stringify(result, null, 2)}</pre>
+        </div>
       </Form>
     </Card.Body>
   );
