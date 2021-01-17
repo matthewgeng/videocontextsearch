@@ -64,6 +64,7 @@ def video():
         print('Failed to delete %s. Reason: %s' % (upload_path, e))
 
     df = pd.read_csv("image_captioning/test/results.csv")
+    
 
     return jsonify("video")
 
