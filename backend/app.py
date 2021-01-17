@@ -2,6 +2,12 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 import cv2
 import os, shutil
+import pandas as pd
+# stupid import crap
+import sys
+sys.path.append(os.path.abspath('./image_captioning'))
+
+from image_captioning.main import inference
 
 app = Flask(__name__)
 CORS(app)
@@ -12,7 +18,7 @@ def get_frames(save_path, video, process_percent):
     # fps = vid.get(cv2.CAP_PROP_FPS)
     timestamps = []
     total_frames = int(vid.get(cv2.CAP_PROP_FRAME_COUNT))
-    print(f"total_frames= {total_frames}")
+    # print(f"total_frames= {total_frames}")
 
     num_frames_to_process = process_percent*total_frames
     diff_until_next_frame = total_frames/num_frames_to_process
@@ -26,14 +32,17 @@ def get_frames(save_path, video, process_percent):
             timestamps.append(time)
             cv2.imwrite(os.path.join(save_path, f"{time}_{num_frame}.jpg"), frame)
         num_frame+=1
-    print("Exited")
+    print(f"Finished splitting frames: {total_frames} frames saved, interval = every {diff_until_next_frame} frames ({process_percent*100}%)")
     vid.release()
 
 @app.route("/api/video", methods=["POST"])
 def video():
     uploaded_file = request.files['file']
     filename = uploaded_file.filename
-    folder = os.path.join("uploaded", filename)
+    image_caption_path = os.path.join(os.path.join("image_captioning", "test"), "uploaded")
+
+    # folder = os.path.join("uploaded", filename)
+    folder = os.path.join(image_caption_path, filename)
     upload_path = os.path.join(folder,filename)
 
     if not os.path.exists(folder):
@@ -41,13 +50,20 @@ def video():
     if not os.path.exists(upload_path):
         print(f"File {filename} saved at {upload_path}")
         uploaded_file.save(upload_path)
-    get_frames(folder, upload_path, .5)
+    get_frames(folder, upload_path, .2)
 
-    # try:
-    #     shutil.rmtree(upload_path)
-    #     print(f"{upload_path} successfully removed")
-    # except Exception as e:
-    #     print('Failed to delete %s. Reason: %s' % (upload_path, e))
+    # delete saved video
+    os.unlink(upload_path)
+
+    inference(3, folder)
+
+    try:
+        shutil.rmtree(upload_path)
+        print(f"{upload_path} successfully removed")
+    except Exception as e:
+        print('Failed to delete %s. Reason: %s' % (upload_path, e))
+
+    df = pd.read_csv("image_captioning/test/results.csv")
 
     return jsonify("video")
 

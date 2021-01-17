@@ -14,17 +14,21 @@ from utils.nn import NN
 from utils.misc import ImageLoader, CaptionData, TopN
 
 class BaseModel(object):
-    def __init__(self, config):
+    def __init__(self, config, beam_size):
         self.config = config
         self.is_train = True if config.phase == 'train' else False
+        # self.is_train = False
         self.train_cnn = self.is_train and config.train_cnn
-        self.image_loader = ImageLoader('./utils/ilsvrc_2012_mean.npy')
+        print(os.getcwd())
+        # self.image_loader = ImageLoader('./utils/ilsvrc_2012_mean.npy')
+        self.image_loader = ImageLoader('./image_captioning/utils/ilsvrc_2012_mean.npy')
         self.image_shape = [224, 224, 3]
         self.nn = NN(config)
         self.global_step = tf.Variable(0,
                                        name = 'global_step',
                                        trainable = False)
         self.build()
+        self.beam_size = beam_size
 
     def build(self):
         raise NotImplementedError()
@@ -133,15 +137,16 @@ class BaseModel(object):
                 scores.append(score)
 
                 # Save the result in an image file
-                image_file = batch[l]
-                image_name = image_file.split(os.sep)[-1]
-                image_name = os.path.splitext(image_name)[0]
-                img = plt.imread(image_file)
-                plt.imshow(img)
-                plt.axis('off')
-                plt.title(caption)
-                plt.savefig(os.path.join(config.test_result_dir,
-                                         image_name+'_result.jpg'))
+
+                # image_file = batch[l]
+                # image_name = image_file.split(os.sep)[-1]
+                # image_name = os.path.splitext(image_name)[0]
+                # img = plt.imread(image_file)
+                # plt.imshow(img)
+                # plt.axis('off')
+                # plt.title(caption)
+                # plt.savefig(os.path.join(config.test_result_dir,
+                #                          image_name+'_result.jpg'))
 
         # Save the captions to a file
         results = pd.DataFrame({'image_files':test_data.image_files,
@@ -166,9 +171,9 @@ class BaseModel(object):
                                        memory = initial_memory[k],
                                        output = initial_output[k],
                                        score = 1.0)
-            partial_caption_data.append(TopN(config.beam_size))
+            partial_caption_data.append(TopN(self.beam_size))
             partial_caption_data[-1].push(initial_beam)
-            complete_caption_data.append(TopN(config.beam_size))
+            complete_caption_data.append(TopN(self.beam_size))
 
         # Run beam search
         for idx in range(config.max_caption_length):
@@ -178,7 +183,7 @@ class BaseModel(object):
                 partial_caption_data_lists.append(data)
                 partial_caption_data[k].reset()
 
-            num_steps = 1 if idx == 0 else config.beam_size
+            num_steps = 1 if idx == 0 else self.beam_size
             for b in range(num_steps):
                 if idx == 0:
                     last_word = np.zeros((config.batch_size), np.int32)
@@ -206,7 +211,7 @@ class BaseModel(object):
                     caption_data = partial_caption_data_lists[k][b]
                     words_and_scores = list(enumerate(scores[k]))
                     words_and_scores.sort(key=lambda x: -x[1])
-                    words_and_scores = words_and_scores[0:config.beam_size+1]
+                    words_and_scores = words_and_scores[0:self.beam_size+1]
 
                     # Append each of these words to the current partial caption
                     for w, s in words_and_scores:
