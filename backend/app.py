@@ -4,6 +4,7 @@ import cv2
 import os, shutil
 import pandas as pd
 # stupid import crap
+import math
 import sys
 sys.path.append(os.path.abspath('./image_captioning'))
 
@@ -20,8 +21,8 @@ def get_frames(save_path, video, process_percent):
     total_frames = int(vid.get(cv2.CAP_PROP_FRAME_COUNT))
     # print(f"total_frames= {total_frames}")
 
-    num_frames_to_process = process_percent*total_frames
-    diff_until_next_frame = total_frames/num_frames_to_process
+    num_frames_to_process = math.ceil(process_percent*total_frames)
+    diff_until_next_frame = math.ceil(total_frames/num_frames_to_process)
     while vid.isOpened():
         frame_exists, frame = vid.read()
         if not frame_exists:
@@ -30,9 +31,9 @@ def get_frames(save_path, video, process_percent):
             # time = fps * num_frame
             time = vid.get(cv2.CAP_PROP_POS_MSEC)
             timestamps.append(time)
-            cv2.imwrite(os.path.join(save_path, f"{time}_{num_frame}.jpg"), frame)
+            cv2.imwrite(os.path.join(save_path, f"{time}.jpg"), frame)
         num_frame+=1
-    print(f"Finished splitting frames: {total_frames} frames saved, interval = every {diff_until_next_frame} frames ({process_percent*100}%)")
+    print(f"Finished splitting frames: {num_frames_to_process} frames saved, interval = every {diff_until_next_frame} frames ({process_percent*100}%)")
     vid.release()
 
 @app.route("/api/video", methods=["POST"])
@@ -50,21 +51,21 @@ def video():
     if not os.path.exists(upload_path):
         print(f"File {filename} saved at {upload_path}")
         uploaded_file.save(upload_path)
-    get_frames(folder, upload_path, .2)
+    get_frames(folder, upload_path, .1)
 
     # delete saved video
     os.unlink(upload_path)
 
     inference(3, folder)
 
-    try:
-        shutil.rmtree(upload_path)
-        print(f"{upload_path} successfully removed")
-    except Exception as e:
-        print('Failed to delete %s. Reason: %s' % (upload_path, e))
+    # try:
+    #     shutil.rmtree(folder)
+    #     print(f"{folder} successfully removed")
+    # except Exception as e:
+    #     print('Failed to delete %s. Reason: %s' % (folder, e))
 
     df = pd.read_csv("image_captioning/test/results.csv")
-    
+
 
     return jsonify("video")
 

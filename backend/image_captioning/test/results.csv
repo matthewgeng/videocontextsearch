@@ -1,185 +1,38 @@
-,image_files,caption,prob
-0,image_captioning/test/uploaded/Popeyes with no bev.mp4/11100.0_332.jpg,a black and white photo of a person holding a remote.,3.3078076386507075e-05
-1,image_captioning/test/uploaded/Popeyes with no bev.mp4/4966.666666666667_148.jpg,a man is holding a cell phone in his hand.,0.0004997856507875757
-2,image_captioning/test/uploaded/Popeyes with no bev.mp4/9100.0_272.jpg,a young boy is holding a remote control.,0.0007066129279693069
-3,image_captioning/test/uploaded/Popeyes with no bev.mp4/8566.666666666666_256.jpg,a young boy is holding a toothbrush in his hand.,0.00030407989018933583
-4,image_captioning/test/uploaded/Popeyes with no bev.mp4/6833.333333333333_204.jpg,a man holding a cell phone in his hand.,0.0008197817088568039
-5,image_captioning/test/uploaded/Popeyes with no bev.mp4/2633.3333333333335_78.jpg,a woman standing in front of a large mirror.,9.065456957657335e-05
-6,image_captioning/test/uploaded/Popeyes with no bev.mp4/10366.666666666666_310.jpg,a black and white photo of a person on a cell phone.,2.6941174491024926e-05
-7,image_captioning/test/uploaded/Popeyes with no bev.mp4/2966.6666666666665_88.jpg,a woman standing in front of a large clock.,0.00010074066277854663
-8,image_captioning/test/uploaded/Popeyes with no bev.mp4/9566.666666666666_286.jpg,a black and white photo of a clock.,0.00029958199888300744
-9,image_captioning/test/uploaded/Popeyes with no bev.mp4/4433.333333333333_132.jpg,a man in a white shirt holding a wii controller.,0.00015496875221535065
-10,image_captioning/test/uploaded/Popeyes with no bev.mp4/1966.6666666666667_58.jpg,a young girl is holding a wii remote.,0.0001049358142076347
-11,image_captioning/test/uploaded/Popeyes with no bev.mp4/8966.666666666666_268.jpg,a young boy is holding a remote control.,0.0005540710978320499
-12,image_captioning/test/uploaded/Popeyes with no bev.mp4/3300.0_98.jpg,a woman is standing in front of a mirror.,0.00020182521289837234
-13,image_captioning/test/uploaded/Popeyes with no bev.mp4/9166.666666666666_274.jpg,a young boy is holding a remote control.,0.000488817514509642
-14,image_captioning/test/uploaded/Popeyes with no bev.mp4/11766.666666666666_352.jpg,a black and white photo of a person holding a remote.,3.4049356619995306e-05
-15,image_captioning/test/uploaded/Popeyes with no bev.mp4/8166.666666666667_244.jpg,a man is holding a cell phone in his hand.,0.00023517299790191764
-16,image_captioning/test/uploaded/Popeyes with no bev.mp4/5166.666666666667_154.jpg,a man in a white shirt holding a cell phone.,0.00018633253800128972
-17,image_captioning/test/uploaded/Popeyes with no bev.mp4/5233.333333333333_156.jpg,a man holding a cell phone in his hand.,0.0007543159653147994
-18,image_captioning/test/uploaded/Popeyes with no bev.mp4/6700.0_200.jpg,a man holding a cell phone in his hand.,0.0007107570938403152
-19,image_captioning/test/uploaded/Popeyes with no bev.mp4/3833.3333333333335_114.jpg,a young man holding a nintendo wii game controller.,0.0007093725037192996
-20,image_captioning/test/uploaded/Popeyes with no bev.mp4/3433.3333333333335_102.jpg,a woman standing in front of a mirror.,0.0003561959057777366
-21,image_captioning/test/uploaded/Popeyes with no bev.mp4/100.0_2.jpg,a large pizza is sitting on a table.,3.304980459946072e-05
-22,image_captioning/test/uploaded/Popeyes with no bev.mp4/9300.0_278.jpg,a young boy is holding a wii controller.,0.00039765306936599036
-23,image_captioning/test/uploaded/Popeyes with no bev.mp4/1166.6666666666667_34.jpg,a person holding a hot dog in his hand.,0.00042984011003756317
-24,image_captioning/test/uploaded/Popeyes with no bev.mp4/11566.666666666666_346.jpg,a black and white photo of a person holding a remote.,3.132196090414672e-05
-25,image_captioning/test/uploaded/Popeyes with no bev.mp4/566.6666666666666_16.jpg,a close up of a box of food.,0.00037289420517909667
-26,image_captioning/test/uploaded/Popeyes with no bev.mp4/4566.666666666667_136.jpg,a man in a white shirt holding a wii controller.,9.372464081133642e-05
-27,image_captioning/test/uploaded/Popeyes with no bev.mp4/9966.666666666666_298.jpg,a black and white photo of a person on a cell phone.,2.84208194225903e-05
-28,image_captioning/test/uploaded/Popeyes with no bev.mp4/7766.666666666667_232.jpg,a man holding a cell phone in his hand.,0.0003912292901903918
-29,image_captioning/test/uploaded/Popeyes with no bev.mp4/7100.0_212.jpg,a man holding a cell phone in his hand.,0.0010051680410769603
-30,image_captioning/test/uploaded/Popeyes with no bev.mp4/12033.333333333334_360.jpg,a black and white photo of a person holding a remote.,3.093143628283753e-05
-31,image_captioning/test/uploaded/Popeyes with no bev.mp4/8900.0_266.jpg,a young boy is holding a remote control.,0.0003832353500372055
-32,image_captioning/test/uploaded/Popeyes with no bev.mp4/2700.0_80.jpg,a woman standing in front of a large mirror.,0.00010925668661314763
-33,image_captioning/test/uploaded/Popeyes with no bev.mp4/4100.0_122.jpg,a young man is holding a wii controller.,0.0003023179194349718
-34,image_captioning/test/uploaded/Popeyes with no bev.mp4/9900.0_296.jpg,a black and white photo of a person holding a remote.,4.131736863715369e-05
-35,image_captioning/test/uploaded/Popeyes with no bev.mp4/1233.3333333333333_36.jpg,a person holding a piece of pizza in a box.,5.747976482062044e-05
-36,image_captioning/test/uploaded/Popeyes with no bev.mp4/7166.666666666667_214.jpg,a man holding a cell phone in his hand.,0.0012067053907002558
-37,image_captioning/test/uploaded/Popeyes with no bev.mp4/5633.333333333333_168.jpg,a man holding a wii controller in his hand.,0.0004372120194858923
-38,image_captioning/test/uploaded/Popeyes with no bev.mp4/8700.0_260.jpg,a young boy is holding a wii controller.,0.0004919789792848816
-39,image_captioning/test/uploaded/Popeyes with no bev.mp4/10900.0_326.jpg,a black and white photo of a person holding a remote.,3.0275522247653093e-05
-40,image_captioning/test/uploaded/Popeyes with no bev.mp4/6900.0_206.jpg,a man holding a cell phone in his hand.,0.0019299684315938436
-41,image_captioning/test/uploaded/Popeyes with no bev.mp4/433.3333333333333_12.jpg,a box of food is sitting on a table.,3.824083855472658e-05
-42,image_captioning/test/uploaded/Popeyes with no bev.mp4/5766.666666666667_172.jpg,a man holding a nintendo wii game controller.,0.008396189131947075
-43,image_captioning/test/uploaded/Popeyes with no bev.mp4/8433.333333333334_252.jpg,a man holding a toothbrush in his hand.,0.0008862107559103275
-44,image_captioning/test/uploaded/Popeyes with no bev.mp4/7233.333333333333_216.jpg,a man holding a cell phone in his hand.,0.0014014838841496188
-45,image_captioning/test/uploaded/Popeyes with no bev.mp4/4166.666666666667_124.jpg,a woman holding a cell phone in his hand.,0.0002039957252659178
-46,image_captioning/test/uploaded/Popeyes with no bev.mp4/12233.333333333334_366.jpg,a black and white photo of a person holding a remote.,3.2870500723819716e-05
-47,image_captioning/test/uploaded/Popeyes with no bev.mp4/1033.3333333333333_30.jpg,a person holding a piece of pizza in a box.,0.0002859014629657422
-48,image_captioning/test/uploaded/Popeyes with no bev.mp4/33.333333333333336_0.jpg,a close up of a pizza on a table.,9.975376726924588e-05
-49,image_captioning/test/uploaded/Popeyes with no bev.mp4/4500.0_134.jpg,a man in a white shirt holding a remote.,0.00010205081179847789
-50,image_captioning/test/uploaded/Popeyes with no bev.mp4/9033.333333333334_270.jpg,a young boy is holding a wii controller.,0.0004980665139989739
-51,image_captioning/test/uploaded/Popeyes with no bev.mp4/5700.0_170.jpg,a man holding a nintendo wii game controller.,0.009207708915814189
-52,image_captioning/test/uploaded/Popeyes with no bev.mp4/4300.0_128.jpg,a young man is holding a wii controller.,0.0005191429520959915
-53,image_captioning/test/uploaded/Popeyes with no bev.mp4/9633.333333333334_288.jpg,a black and white photo of a sign.,0.00019681692465859513
-54,image_captioning/test/uploaded/Popeyes with no bev.mp4/8500.0_254.jpg,a young man holding a toothbrush in his mouth.,0.00048382614015898205
-55,image_captioning/test/uploaded/Popeyes with no bev.mp4/6500.0_194.jpg,a man holding a nintendo wii game controller.,0.0038577844882906076
-56,image_captioning/test/uploaded/Popeyes with no bev.mp4/4766.666666666667_142.jpg,a man is holding a cell phone in his hand.,0.000879081324166481
-57,image_captioning/test/uploaded/Popeyes with no bev.mp4/2433.3333333333335_72.jpg,a woman standing in front of a mirror.,0.0002967431087558432
-58,image_captioning/test/uploaded/Popeyes with no bev.mp4/3900.0_116.jpg,a young man holding a wii remote control.,0.0002851188787711493
-59,image_captioning/test/uploaded/Popeyes with no bev.mp4/10166.666666666666_304.jpg,a black and white photo of a person on a cell phone.,2.8519200406434465e-05
-60,image_captioning/test/uploaded/Popeyes with no bev.mp4/11833.333333333334_354.jpg,a black and white photo of a person holding a remote.,3.407627932592723e-05
-61,image_captioning/test/uploaded/Popeyes with no bev.mp4/6633.333333333333_198.jpg,a man holding a nintendo wii game controller.,0.0030254204758389017
-62,image_captioning/test/uploaded/Popeyes with no bev.mp4/5966.666666666667_178.jpg,a man holding a nintendo wii game controller.,0.005392245889061978
-63,image_captioning/test/uploaded/Popeyes with no bev.mp4/7433.333333333333_222.jpg,a woman holding a cell phone in her hand.,0.00038460280279409243
-64,image_captioning/test/uploaded/Popeyes with no bev.mp4/7366.666666666667_220.jpg,a man holding a remote control in his hand.,0.0014558568243578079
-65,image_captioning/test/uploaded/Popeyes with no bev.mp4/9500.0_284.jpg,a black and white photo of a person holding a kite.,4.291762560502253e-05
-66,image_captioning/test/uploaded/Popeyes with no bev.mp4/6433.333333333333_192.jpg,a man holding a nintendo wii game controller.,0.003526096004515104
-67,image_captioning/test/uploaded/Popeyes with no bev.mp4/11433.333333333334_342.jpg,a black and white photo of a person holding a remote.,3.330573793354572e-05
-68,image_captioning/test/uploaded/Popeyes with no bev.mp4/2366.6666666666665_70.jpg,a woman standing in front of a mirror.,0.0003808194591709329
-69,image_captioning/test/uploaded/Popeyes with no bev.mp4/2100.0_62.jpg,a woman in a white shirt and a white shirt.,1.0337487700007958e-05
-70,image_captioning/test/uploaded/Popeyes with no bev.mp4/1566.6666666666667_46.jpg,a man in a white shirt is eating a doughnut.,0.0001488620361267501
-71,image_captioning/test/uploaded/Popeyes with no bev.mp4/2166.6666666666665_64.jpg,a young girl in a white shirt is holding a cell phone.,4.674385630888922e-06
-72,image_captioning/test/uploaded/Popeyes with no bev.mp4/3700.0_110.jpg,a woman holding a wii controller in her hand.,0.00032040276194755964
-73,image_captioning/test/uploaded/Popeyes with no bev.mp4/10100.0_302.jpg,a black and white photo of a person on a cell phone.,2.89328412571789e-05
-74,image_captioning/test/uploaded/Popeyes with no bev.mp4/833.3333333333334_24.jpg,a person holding a piece of pizza in a box.,0.00026884835439337866
-75,image_captioning/test/uploaded/Popeyes with no bev.mp4/2833.3333333333335_84.jpg,a woman is standing in front of a mirror.,0.00018310581665081634
-76,image_captioning/test/uploaded/Popeyes with no bev.mp4/10033.333333333334_300.jpg,a black and white photo of a person on a cell phone.,2.862627460583404e-05
-77,image_captioning/test/uploaded/Popeyes with no bev.mp4/10233.333333333334_306.jpg,a black and white photo of a person on a cell phone.,2.8538634832695642e-05
-78,image_captioning/test/uploaded/Popeyes with no bev.mp4/6233.333333333333_186.jpg,a man holding a wii controller in his hand.,0.00040042216475738297
-79,image_captioning/test/uploaded/Popeyes with no bev.mp4/766.6666666666666_22.jpg,a person holding a piece of pizza in a box.,0.00023137184495154286
-80,image_captioning/test/uploaded/Popeyes with no bev.mp4/10566.666666666666_316.jpg,a black and white photo of a person on a cell phone.,2.774918064562036e-05
-81,image_captioning/test/uploaded/Popeyes with no bev.mp4/5433.333333333333_162.jpg,a man holding a nintendo wii game controller.,0.004008225316741662
-82,image_captioning/test/uploaded/Popeyes with no bev.mp4/8366.666666666666_250.jpg,a young boy holding a toothbrush in his hand.,0.001177754807576962
-83,image_captioning/test/uploaded/Popeyes with no bev.mp4/10766.666666666666_322.jpg,a black and white photo of a person holding a remote.,2.9832948598498906e-05
-84,image_captioning/test/uploaded/Popeyes with no bev.mp4/5900.0_176.jpg,a man holding a nintendo wii game controller.,0.007043123967547956
-85,image_captioning/test/uploaded/Popeyes with no bev.mp4/9766.666666666666_292.jpg,a black and white photo of a person on a cell phone.,5.1498240796317775e-05
-86,image_captioning/test/uploaded/Popeyes with no bev.mp4/7900.0_236.jpg,a young man is holding a cell phone.,0.0009724384762978823
-87,image_captioning/test/uploaded/Popeyes with no bev.mp4/6566.666666666667_196.jpg,a man holding a nintendo wii game controller.,0.003366952917281029
-88,image_captioning/test/uploaded/Popeyes with no bev.mp4/10433.333333333334_312.jpg,a black and white photo of a person on a cell phone.,2.6941174491024926e-05
-89,image_captioning/test/uploaded/Popeyes with no bev.mp4/11700.0_350.jpg,a black and white photo of a person holding a remote.,3.230931541437428e-05
-90,image_captioning/test/uploaded/Popeyes with no bev.mp4/12100.0_362.jpg,a black and white photo of a person holding a remote.,3.228518324228765e-05
-91,image_captioning/test/uploaded/Popeyes with no bev.mp4/700.0_20.jpg,a close up of a box of food.,0.0003489042635122859
-92,image_captioning/test/uploaded/Popeyes with no bev.mp4/3233.3333333333335_96.jpg,a woman standing in front of a large mirror.,0.0001285204395851344
-93,image_captioning/test/uploaded/Popeyes with no bev.mp4/6100.0_182.jpg,a woman holding a nintendo wii game controller.,0.002747712478067471
-94,image_captioning/test/uploaded/Popeyes with no bev.mp4/9833.333333333334_294.jpg,a black and white photo of a person on a cell phone.,4.259070670529146e-05
-95,image_captioning/test/uploaded/Popeyes with no bev.mp4/1100.0_32.jpg,a person holding a piece of food on a plate.,4.9590711001288747e-05
-96,image_captioning/test/uploaded/Popeyes with no bev.mp4/4633.333333333333_138.jpg,a man in a white shirt holding a cell phone.,0.00014294730729204116
-97,image_captioning/test/uploaded/Popeyes with no bev.mp4/166.66666666666666_4.jpg,a close up of a cake on a table.,0.00018086087249311703
-98,image_captioning/test/uploaded/Popeyes with no bev.mp4/3566.6666666666665_106.jpg,a woman is standing in front of a mirror.,0.0002302689053874236
-99,image_captioning/test/uploaded/Popeyes with no bev.mp4/10633.333333333334_318.jpg,a black and white photo of a person on a cell phone.,2.774918064562036e-05
-100,image_captioning/test/uploaded/Popeyes with no bev.mp4/4833.333333333333_144.jpg,a man is holding a cell phone in his hand.,0.0007797512978851233
-101,image_captioning/test/uploaded/Popeyes with no bev.mp4/1300.0_38.jpg,a man holding a piece of pizza in his hand.,0.00023125784074320825
-102,image_captioning/test/uploaded/Popeyes with no bev.mp4/7300.0_218.jpg,a man holding a cell phone in his hand.,0.0015774760810333683
-103,image_captioning/test/uploaded/Popeyes with no bev.mp4/1633.3333333333333_48.jpg,a man is eating a donut in his mouth.,0.0005148825565520476
-104,image_captioning/test/uploaded/Popeyes with no bev.mp4/1366.6666666666667_40.jpg,a person holding a piece of pizza in a box.,6.0927761322025484e-05
-105,image_captioning/test/uploaded/Popeyes with no bev.mp4/4700.0_140.jpg,a man holding a cell phone in his hand.,0.0011718748661271484
-106,image_captioning/test/uploaded/Popeyes with no bev.mp4/5300.0_158.jpg,a man is holding a wii remote control.,0.000277901679876099
-107,image_captioning/test/uploaded/Popeyes with no bev.mp4/8833.333333333334_264.jpg,a young boy is holding a remote control.,0.0005895735345275336
-108,image_captioning/test/uploaded/Popeyes with no bev.mp4/2300.0_68.jpg,a woman is standing in front of a mirror.,0.00024453894484155404
-109,image_captioning/test/uploaded/Popeyes with no bev.mp4/7033.333333333333_210.jpg,a man holding a cell phone in his hand.,0.0015821851352812635
-110,image_captioning/test/uploaded/Popeyes with no bev.mp4/633.3333333333334_18.jpg,a box of food is sitting on a table.,5.049204503432089e-05
-111,image_captioning/test/uploaded/Popeyes with no bev.mp4/3766.6666666666665_112.jpg,a young woman holding a wii controller.,0.00011926653581248616
-112,image_captioning/test/uploaded/Popeyes with no bev.mp4/5833.333333333333_174.jpg,a man holding a nintendo wii game controller.,0.008074715144360927
-113,image_captioning/test/uploaded/Popeyes with no bev.mp4/4900.0_146.jpg,a man is holding a cell phone in his hand.,0.0005202673383663403
-114,image_captioning/test/uploaded/Popeyes with no bev.mp4/3366.6666666666665_100.jpg,a woman standing in front of a large mirror.,0.00013029890510553538
-115,image_captioning/test/uploaded/Popeyes with no bev.mp4/9366.666666666666_280.jpg,a black and white photo of a person holding a cell phone.,7.299117841829961e-06
-116,image_captioning/test/uploaded/Popeyes with no bev.mp4/7566.666666666667_226.jpg,a man holding a remote control in his hand.,0.0004446979237039684
-117,image_captioning/test/uploaded/Popeyes with no bev.mp4/5566.666666666667_166.jpg,a man holding a nintendo wii game controller.,0.005343974408347903
-118,image_captioning/test/uploaded/Popeyes with no bev.mp4/8766.666666666666_262.jpg,a young boy is holding a wii controller.,0.0005652810144072848
-119,image_captioning/test/uploaded/Popeyes with no bev.mp4/300.0_8.jpg,a close up of a piece of cake.,0.00017717163614244458
-120,image_captioning/test/uploaded/Popeyes with no bev.mp4/1900.0_56.jpg,a man in a blue shirt is eating a donut.,0.00010257057654613209
-121,image_captioning/test/uploaded/Popeyes with no bev.mp4/8233.333333333334_246.jpg,a man is holding a cell phone in his hand.,0.0003819290810459463
-122,image_captioning/test/uploaded/Popeyes with no bev.mp4/233.33333333333334_6.jpg,a large pizza is sitting on a table.,3.397666228423393e-05
-123,image_captioning/test/uploaded/Popeyes with no bev.mp4/11366.666666666666_340.jpg,a black and white photo of a person holding a remote.,3.330573793354572e-05
-124,image_captioning/test/uploaded/Popeyes with no bev.mp4/10300.0_308.jpg,a black and white photo of a person on a cell phone.,2.72000110246749e-05
-125,image_captioning/test/uploaded/Popeyes with no bev.mp4/6966.666666666667_208.jpg,a man holding a cell phone in his hand.,0.00168444307776299
-126,image_captioning/test/uploaded/Popeyes with no bev.mp4/10500.0_314.jpg,a black and white photo of a person on a cell phone.,2.717894673066558e-05
-127,image_captioning/test/uploaded/Popeyes with no bev.mp4/3166.6666666666665_94.jpg,a woman standing in front of a large mirror.,0.00010589170780814825
-128,image_captioning/test/uploaded/Popeyes with no bev.mp4/6366.666666666667_190.jpg,a man holding a wii controller in his hand.,0.00021211736293902497
-129,image_captioning/test/uploaded/Popeyes with no bev.mp4/8033.333333333333_240.jpg,a man in a black shirt holding a remote.,7.32099520711419e-05
-130,image_captioning/test/uploaded/Popeyes with no bev.mp4/11233.333333333334_336.jpg,a black and white photo of a person holding a remote.,3.182317692900018e-05
-131,image_captioning/test/uploaded/Popeyes with no bev.mp4/7833.333333333333_234.jpg,a young man is holding a remote control.,0.00038078431669065255
-132,image_captioning/test/uploaded/Popeyes with no bev.mp4/5366.666666666667_160.jpg,a woman is holding a wii remote control.,0.0004034643042223516
-133,image_captioning/test/uploaded/Popeyes with no bev.mp4/1833.3333333333333_54.jpg,a man in a blue shirt is eating a donut.,9.951341276832961e-05
-134,image_captioning/test/uploaded/Popeyes with no bev.mp4/1433.3333333333333_42.jpg,a man holding a donut in his mouth.,0.002394212526774888
-135,image_captioning/test/uploaded/Popeyes with no bev.mp4/6300.0_188.jpg,a woman holding a wii controller in her hand.,0.00036703905073242834
-136,image_captioning/test/uploaded/Popeyes with no bev.mp4/9233.333333333334_276.jpg,a young boy is holding a wii controller.,0.00048117446526904666
-137,image_captioning/test/uploaded/Popeyes with no bev.mp4/8633.333333333334_258.jpg,a young boy is holding a wii remote.,0.00032624373502906006
-138,image_captioning/test/uploaded/Popeyes with no bev.mp4/7500.0_224.jpg,a woman holding a cell phone in her hand.,0.0003484998202416876
-139,image_captioning/test/uploaded/Popeyes with no bev.mp4/366.6666666666667_10.jpg,a box of food is sitting on a table.,4.344733592110135e-05
-140,image_captioning/test/uploaded/Popeyes with no bev.mp4/966.6666666666666_28.jpg,a person holding a piece of pizza in a box.,0.00037735275833980254
-141,image_captioning/test/uploaded/Popeyes with no bev.mp4/11966.666666666666_358.jpg,a black and white photo of a person holding a remote.,3.1011556655766856e-05
-142,image_captioning/test/uploaded/Popeyes with no bev.mp4/1500.0_44.jpg,a man is holding a donut in his mouth.,0.0008049594839462242
-143,image_captioning/test/uploaded/Popeyes with no bev.mp4/11033.333333333334_330.jpg,a black and white photo of a person holding a remote.,3.0487310326926934e-05
-144,image_captioning/test/uploaded/Popeyes with no bev.mp4/9700.0_290.jpg,a black and white photo of a person holding a kite.,7.163455182087504e-05
-145,image_captioning/test/uploaded/Popeyes with no bev.mp4/7700.0_230.jpg,a man holding a remote control in his hand.,0.0004709190273323992
-146,image_captioning/test/uploaded/Popeyes with no bev.mp4/6033.333333333333_180.jpg,a man holding a nintendo wii game controller.,0.005895757202301779
-147,image_captioning/test/uploaded/Popeyes with no bev.mp4/4033.3333333333335_120.jpg,a woman holding a cell phone in his hand.,0.0002564032489153775
-148,image_captioning/test/uploaded/Popeyes with no bev.mp4/2766.6666666666665_82.jpg,a woman is standing in front of a mirror.,0.00019072372944269083
-149,image_captioning/test/uploaded/Popeyes with no bev.mp4/11300.0_338.jpg,a black and white photo of a person holding a remote.,3.2430806588194875e-05
-150,image_captioning/test/uploaded/Popeyes with no bev.mp4/5100.0_152.jpg,a man holding a cell phone in his hand.,0.0007282614253804749
-151,image_captioning/test/uploaded/Popeyes with no bev.mp4/900.0_26.jpg,a person holding a piece of pizza in a box.,0.00031194272859985217
-152,image_captioning/test/uploaded/Popeyes with no bev.mp4/10833.333333333334_324.jpg,a black and white photo of a person holding a remote.,2.9832948598498906e-05
-153,image_captioning/test/uploaded/Popeyes with no bev.mp4/5500.0_164.jpg,a man holding a nintendo wii game controller.,0.005628846454534936
-154,image_captioning/test/uploaded/Popeyes with no bev.mp4/7966.666666666667_238.jpg,a man holding a cell phone in his hand.,0.0006667045638221739
-155,image_captioning/test/uploaded/Popeyes with no bev.mp4/4366.666666666667_130.jpg,a young man is holding a remote control.,0.0003317724406497785
-156,image_captioning/test/uploaded/Popeyes with no bev.mp4/11633.333333333334_348.jpg,a black and white photo of a person holding a remote.,3.132196090414672e-05
-157,image_captioning/test/uploaded/Popeyes with no bev.mp4/8300.0_248.jpg,a young boy is holding a cell phone.,0.000685243808831154
-158,image_captioning/test/uploaded/Popeyes with no bev.mp4/3100.0_92.jpg,a woman standing in front of a large mirror.,0.0001401154950522863
-159,image_captioning/test/uploaded/Popeyes with no bev.mp4/11166.666666666666_334.jpg,a black and white photo of a person holding a remote.,3.100190303703278e-05
-160,image_captioning/test/uploaded/Popeyes with no bev.mp4/3966.6666666666665_118.jpg,a woman holding a cell phone in her hand.,0.00019899556515750753
-161,image_captioning/test/uploaded/Popeyes with no bev.mp4/11900.0_356.jpg,a black and white photo of a person holding a remote.,3.358438134912602e-05
-162,image_captioning/test/uploaded/Popeyes with no bev.mp4/1766.6666666666667_52.jpg,a man is eating a donut in his mouth.,0.00027752529259593087
-163,image_captioning/test/uploaded/Popeyes with no bev.mp4/500.0_14.jpg,a close up of a box of food.,0.0003815871801507829
-164,image_captioning/test/uploaded/Popeyes with no bev.mp4/4233.333333333333_126.jpg,a man is holding a wii controller.,9.035097581786122e-05
-165,image_captioning/test/uploaded/Popeyes with no bev.mp4/2566.6666666666665_76.jpg,a woman standing in front of a mirror.,0.00025884215460085145
-166,image_captioning/test/uploaded/Popeyes with no bev.mp4/3633.3333333333335_108.jpg,a young man holding a wii controller.,0.000283148893946718
-167,image_captioning/test/uploaded/Popeyes with no bev.mp4/2500.0_74.jpg,a woman standing in front of a mirror.,0.0002982099679283655
-168,image_captioning/test/uploaded/Popeyes with no bev.mp4/2900.0_86.jpg,a woman standing in front of a large mirror.,0.00012019112865413395
-169,image_captioning/test/uploaded/Popeyes with no bev.mp4/2033.3333333333333_60.jpg,a woman in a white shirt is holding a cell phone.,2.6969446412964946e-05
-170,image_captioning/test/uploaded/Popeyes with no bev.mp4/1700.0_50.jpg,a man is eating a donut in his mouth.,0.0005065889492442995
-171,image_captioning/test/uploaded/Popeyes with no bev.mp4/10966.666666666666_328.jpg,a black and white photo of a person holding a remote.,3.299769594255571e-05
-172,image_captioning/test/uploaded/Popeyes with no bev.mp4/5033.333333333333_150.jpg,a man in a white shirt holding a cell phone.,0.00014482814817871065
-173,image_captioning/test/uploaded/Popeyes with no bev.mp4/9433.333333333334_282.jpg,a black and white photo of a person in the dark.,1.576838736091836e-05
-174,image_captioning/test/uploaded/Popeyes with no bev.mp4/11500.0_344.jpg,a black and white photo of a person holding a remote.,3.3418471075257427e-05
-175,image_captioning/test/uploaded/Popeyes with no bev.mp4/2233.3333333333335_66.jpg,a woman in a white shirt is holding a cell phone.,2.042926895808222e-05
-176,image_captioning/test/uploaded/Popeyes with no bev.mp4/3033.3333333333335_90.jpg,a woman standing in front of a large clock.,0.00011481418026739558
-177,image_captioning/test/uploaded/Popeyes with no bev.mp4/3500.0_104.jpg,a woman is standing in front of a mirror.,0.00022859734328179747
-178,image_captioning/test/uploaded/Popeyes with no bev.mp4/8100.0_242.jpg,a man is holding a cell phone in his hand.,0.000226385941700766
-179,image_captioning/test/uploaded/Popeyes with no bev.mp4/10700.0_320.jpg,a black and white photo of a person holding a remote.,3.245349270426485e-05
-180,image_captioning/test/uploaded/Popeyes with no bev.mp4/12166.666666666666_364.jpg,a black and white photo of a person holding a remote.,3.293671694513107e-05
-181,image_captioning/test/uploaded/Popeyes with no bev.mp4/7633.333333333333_228.jpg,a man holding a cell phone in his hand.,0.0005820362277292737
-182,image_captioning/test/uploaded/Popeyes with no bev.mp4/6766.666666666667_202.jpg,a man holding a cell phone in his hand.,0.0015964648045306141
-183,image_captioning/test/uploaded/Popeyes with no bev.mp4/6166.666666666667_184.jpg,a woman is holding a wii controller in her hand.,9.31622794582722e-05
+,image_files,caption,prob,timestamps
+0,image_captioning/test/uploaded/Popeyes with no bev.mp4/10366.666666666666.jpg,a black and white photo of a person on a cell phone.,2.6941174491024926e-05,10366.666666666666
+1,image_captioning/test/uploaded/Popeyes with no bev.mp4/11366.666666666666.jpg,a black and white photo of a person holding a remote.,3.330573793354572e-05,11366.666666666666
+2,image_captioning/test/uploaded/Popeyes with no bev.mp4/10700.0.jpg,a black and white photo of a person holding a remote.,3.245349270426485e-05,10700.0
+3,image_captioning/test/uploaded/Popeyes with no bev.mp4/1366.6666666666667.jpg,a person holding a piece of pizza in a box.,6.0927761322025484e-05,1366.6666666666667
+4,image_captioning/test/uploaded/Popeyes with no bev.mp4/6366.666666666667.jpg,a man holding a wii controller in his hand.,0.00021211736293902497,6366.666666666667
+5,image_captioning/test/uploaded/Popeyes with no bev.mp4/7366.666666666667.jpg,a man holding a remote control in his hand.,0.0014558568243578079,7366.666666666667
+6,image_captioning/test/uploaded/Popeyes with no bev.mp4/11700.0.jpg,a black and white photo of a person holding a remote.,3.230931541437428e-05,11700.0
+7,image_captioning/test/uploaded/Popeyes with no bev.mp4/3366.6666666666665.jpg,a woman standing in front of a large mirror.,0.00013029890510553538,3366.6666666666665
+8,image_captioning/test/uploaded/Popeyes with no bev.mp4/6033.333333333333.jpg,a man holding a nintendo wii game controller.,0.005895757202301779,6033.333333333333
+9,image_captioning/test/uploaded/Popeyes with no bev.mp4/2033.3333333333333.jpg,a woman in a white shirt is holding a cell phone.,2.6969446412964946e-05,2033.3333333333333
+10,image_captioning/test/uploaded/Popeyes with no bev.mp4/12033.333333333334.jpg,a black and white photo of a person holding a remote.,3.0931350380002504e-05,12033.333333333334
+11,image_captioning/test/uploaded/Popeyes with no bev.mp4/3033.3333333333335.jpg,a woman standing in front of a large clock.,0.00011481418026739558,3033.3333333333335
+12,image_captioning/test/uploaded/Popeyes with no bev.mp4/9700.0.jpg,a black and white photo of a person holding a kite.,7.163455182087504e-05,9700.0
+13,image_captioning/test/uploaded/Popeyes with no bev.mp4/2700.0.jpg,a woman standing in front of a large mirror.,0.00010925668661314763,2700.0
+14,image_captioning/test/uploaded/Popeyes with no bev.mp4/10033.333333333334.jpg,a black and white photo of a person on a cell phone.,2.862627460583404e-05,10033.333333333334
+15,image_captioning/test/uploaded/Popeyes with no bev.mp4/2366.6666666666665.jpg,a woman standing in front of a mirror.,0.0003808194591709329,2366.6666666666665
+16,image_captioning/test/uploaded/Popeyes with no bev.mp4/4033.3333333333335.jpg,a woman holding a cell phone in his hand.,0.0002564032489153775,4033.3333333333335
+17,image_captioning/test/uploaded/Popeyes with no bev.mp4/11033.333333333334.jpg,a black and white photo of a person holding a remote.,3.0487310326926934e-05,11033.333333333334
+18,image_captioning/test/uploaded/Popeyes with no bev.mp4/8033.333333333333.jpg,a man in a black shirt holding a remote.,7.32099520711419e-05,8033.333333333333
+19,image_captioning/test/uploaded/Popeyes with no bev.mp4/5033.333333333333.jpg,a man in a white shirt holding a cell phone.,0.00014482814817871065,5033.333333333333
+20,image_captioning/test/uploaded/Popeyes with no bev.mp4/1033.3333333333333.jpg,a person holding a piece of pizza in a box.,0.0002859014629657422,1033.3333333333333
+21,image_captioning/test/uploaded/Popeyes with no bev.mp4/7033.333333333333.jpg,a man holding a cell phone in his hand.,0.0015821851352812635,7033.333333333333
+22,image_captioning/test/uploaded/Popeyes with no bev.mp4/1700.0.jpg,a man is eating a donut in his mouth.,0.0005065889492442995,1700.0
+23,image_captioning/test/uploaded/Popeyes with no bev.mp4/6700.0.jpg,a man holding a cell phone in his hand.,0.0007107570938403152,6700.0
+24,image_captioning/test/uploaded/Popeyes with no bev.mp4/5366.666666666667.jpg,a woman is holding a wii remote control.,0.0004034643042223516,5366.666666666667
+25,image_captioning/test/uploaded/Popeyes with no bev.mp4/8366.666666666666.jpg,a young boy holding a toothbrush in his hand.,0.001177754807576962,8366.666666666666
+26,image_captioning/test/uploaded/Popeyes with no bev.mp4/366.6666666666667.jpg,a box of food is sitting on a table.,4.344733592110135e-05,366.6666666666667
+27,image_captioning/test/uploaded/Popeyes with no bev.mp4/8700.0.jpg,a young boy is holding a wii controller.,0.0004919789792848816,8700.0
+28,image_captioning/test/uploaded/Popeyes with no bev.mp4/9033.333333333334.jpg,a young boy is holding a wii controller.,0.0004980665139989739,9033.333333333334
+29,image_captioning/test/uploaded/Popeyes with no bev.mp4/700.0.jpg,a close up of a box of food.,0.0003489042635122859,700.0
+30,image_captioning/test/uploaded/Popeyes with no bev.mp4/4366.666666666667.jpg,a young man is holding a remote control.,0.00033177154484009504,4366.666666666667
+31,image_captioning/test/uploaded/Popeyes with no bev.mp4/9366.666666666666.jpg,a black and white photo of a person holding a cell phone.,7.299126505369126e-06,9366.666666666666
+32,image_captioning/test/uploaded/Popeyes with no bev.mp4/33.333333333333336.jpg,a close up of a pizza on a table.,9.975376726924588e-05,33.333333333333336
+33,image_captioning/test/uploaded/Popeyes with no bev.mp4/3700.0.jpg,a woman holding a wii controller in her hand.,0.00032040276194755964,3700.0
+34,image_captioning/test/uploaded/Popeyes with no bev.mp4/7700.0.jpg,a man holding a remote control in his hand.,0.0004709190273323992,7700.0
+35,image_captioning/test/uploaded/Popeyes with no bev.mp4/4700.0.jpg,a man holding a cell phone in his hand.,0.0011718748661271484,4700.0
+36,image_captioning/test/uploaded/Popeyes with no bev.mp4/5700.0.jpg,a man holding a nintendo wii game controller.,0.009207708915814189,5700.0

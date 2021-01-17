@@ -11,6 +11,7 @@ class DataSet(object):
     def __init__(self,
                  image_ids,
                  image_files,
+                 timestamps,
                  batch_size,
                  word_idxs=None,
                  masks=None,
@@ -18,6 +19,7 @@ class DataSet(object):
                  shuffle=False):
         self.image_ids = np.array(image_ids)
         self.image_files = np.array(image_files)
+        self.timestamps = np.array(timestamps)
         self.word_idxs = np.array(word_idxs)
         self.masks = np.array(masks)
         self.batch_size = batch_size
@@ -164,6 +166,7 @@ class DataSet(object):
 def prepare_test_data(config, test_image_dir):
     """ Prepare the data for testing the model. """
     files = os.listdir(test_image_dir)
+    timestamps = [float(os.path.splitext(f)[0]) for f in files]
     image_files = [os.path.join(test_image_dir, f) for f in files
         if f.lower().endswith('.jpg') or f.lower().endswith('.jpeg')]
     image_ids = list(range(len(image_files)))
@@ -178,7 +181,7 @@ def prepare_test_data(config, test_image_dir):
     print("Number of words = %d" %(vocabulary.size))
 
     print("Building the dataset...")
-    dataset = DataSet(image_ids, image_files, config.batch_size)
+    dataset = DataSet(image_ids, image_files, timestamps, config.batch_size)
     print("Dataset built.")
     return dataset, vocabulary
 
