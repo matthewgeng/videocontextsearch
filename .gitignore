@@ -3,3 +3,4 @@ vc_workshop.txt
 .eslintrc.json
 .eslintcache
 __pycache__
+backend/image_captioning/models/289999.npy
